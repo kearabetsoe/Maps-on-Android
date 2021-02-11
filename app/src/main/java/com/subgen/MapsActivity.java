@@ -39,7 +39,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
     private GoogleMap mMap;
     private Location currentLocation;
     private double lat, lon;
-    private String poi, api_key = "AIzaSyBAApr46WIYU85Exk312QXSqaZqWOKVhcM";
+    private String poi, api_key = "";
     private String tag = "Testing MapsActivity";
     private List<Location> locationList;
     private ArrayList<String> names;
